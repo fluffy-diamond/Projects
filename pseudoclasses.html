@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pseudo Classes
+        </title>
+        <style>
+            body{
+                margin: 0;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            .aaa{
+                overflow: hidden;
+                background-color: blueviolet;
+            }
+            .aaa a{
+                float: left;
+                color: brown;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .aaa a:hover{
+                background-color: goldenrod;
+                color: blueviolet;
+            }
+            .aaa a.active{
+                background-color: black;
+                color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="aaa">
+            <a class="active" herf="#home">Home</a>
+            <a herf="#news">News</a>
+            <a herf="#contact">Contact</a>
+            <a herf="#about">About</a>
+        </div>
+    </body>
+</html>
